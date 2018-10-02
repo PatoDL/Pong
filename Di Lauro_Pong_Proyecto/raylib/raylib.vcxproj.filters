@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Juego">
+      <UniqueIdentifier>{ba9826db-d92a-44e9-be5f-600d6a2780e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Pantallas">
+      <UniqueIdentifier>{d1086857-1297-46de-8f70-8cbbd8d80969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Pantallas\Menu">
+      <UniqueIdentifier>{c8c2c8d9-c891-4f36-8696-66a4c0a4255f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Pantallas\Gameplay">
+      <UniqueIdentifier>{9b74614c-50e9-4c72-8038-1e5586a56673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Pantallas\Gameover">
+      <UniqueIdentifier>{0d042c79-0c2a-4d74-96f2-6a6bfae66d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Juego\Pantallas\Creditos">
+      <UniqueIdentifier>{d9713f51-8f50-4d38-b25f-d4f81a6aeb6e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\juego.h">
+      <Filter>Juego</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\screenjuego\bola.h">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\screenjuego\screenjuego.h">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\creditos\creditos.h">
+      <Filter>Juego\Pantallas\Creditos</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\menu\menu.h">
+      <Filter>Juego\Pantallas\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\gameover\gameover.h">
+      <Filter>Juego\Pantallas\Gameover</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\screenjuego\jugador.h">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\screenjuego\puntaje.h">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\juego.cpp">
+      <Filter>Juego</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Juego</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screenjuego\bola.cpp">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screenjuego\screenjuego.cpp">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\creditos\creditos.cpp">
+      <Filter>Juego\Pantallas\Creditos</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu\menu.cpp">
+      <Filter>Juego\Pantallas\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\gameover\gameover.cpp">
+      <Filter>Juego\Pantallas\Gameover</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screenjuego\jugador.cpp">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\screenjuego\puntaje.cpp">
+      <Filter>Juego\Pantallas\Gameplay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
